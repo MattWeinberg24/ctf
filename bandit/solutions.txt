@@ -1,0 +1,14 @@
+ 0. self-explanatory
+ 1. cat ./-
+ 2. tab autocompletion (or escape characters)
+ 3. ls -la
+ 4. brute force cat
+ 5. find -size 1033c ! -executable
+ 6. find -group bandit6 -user bandit7 -size 33c (in root directory) 
+ 7. cat data.txt | grep "millionth"
+ 8. cat data.txt | sort | uniq -u
+ 9. strings data.txt | grep "===="
+10. cat data.txt | base64 -d
+11. rot13.py
+12. xxd -r, then a series of gunzip (needs .gz extension to work), bunzip2, tar decompresses 
+
