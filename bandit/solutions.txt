@@ -2,7 +2,7 @@
  1. cat ./-
  2. tab autocompletion (or escape characters)
  3. ls -la
- 4. brute force cat
+ 4. (brute force) cat
  5. find -size 1033c ! -executable
  6. find -group bandit6 -user bandit7 -size 33c (in root directory) 
  7. cat data.txt | grep "millionth"
@@ -11,4 +11,12 @@
 10. cat data.txt | base64 -d
 11. rot13.py
 12. xxd -r, then a series of gunzip (needs .gz extension to work), bunzip2, tar decompresses 
-
+13. ssh -i sshkey.private bandit14@localhost
+14. nc localhost 30000 (then input key and press enter)
+15. openssl s_client -crlf -connect localhost:30001 -servername localhost
+16. nmap -p 31000-32000 localhost (to find valid ports)
+    openssl s_client -crlf -connect localhost:(insert valid port) -servername localhost
+    Once one of the ports correctly outputs an ssh key, copy and paste it into a file on your local machine
+    ssh into the next level using that key
+17. diff passwords.new passwords.old
+18. scp -P 2220 bandit18@bandit.labs.overthewire.org:./readme .
