@@ -34,3 +34,5 @@
     Create an empty textfile. Give both the textfile write permissions for all users.
     Give the script execute permissions for all users. 
     Move the script into /var/spool/bandit24. Wait a bit then view the textfile.
+24. run makethefile.sh to create the input file
+    cat hey.txt | nc localhost 30002
