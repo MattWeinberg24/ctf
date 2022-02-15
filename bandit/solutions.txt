@@ -9,7 +9,7 @@
  8. cat data.txt | sort | uniq -u
  9. strings data.txt | grep "===="
 10. cat data.txt | base64 -d
-11. rot13.py
+11. rot13.py in the level11 directory
 12. xxd -r, then a series of gunzip (needs .gz extension to work), bunzip2, tar decompresses 
 13. ssh -i sshkey.private bandit14@localhost
 14. nc localhost 30000 (then input key and press enter)
@@ -36,3 +36,31 @@
     Move the script into /var/spool/bandit24. Wait a bit then view the textfile.
 24. run makethefile.sh to create the input file
     cat hey.txt | nc localhost 30002
+25/26. cat /etc/shells
+       cat /usr/bin/showtext
+       use the provided ssh key to ssh into level26, but make the window really small to trigger the more command's editor
+       press 'v' to enter vim
+       run the command: set shell=bin/bash
+       run the command: shell
+       ./bandit27-do cat /etc/bandit_pass/bandit27
+27. make a temporary directory
+    git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+    enter the password
+    cat /repo/README
+28. make a temporary directory and clone the repo similar to last level
+    git log
+    git log -p
+29. clone and enter the repo
+    git log -p
+    git branch -r
+    git checkout origin/dev
+    cat README.md
+30. clone and enter the repo
+    git tag -l
+    git show secret
+31. clone and enter the repo
+    create the text file with the correct content as described in the readme
+    git add -f key.txt
+    git commit -m "anything"
+    git push
+
