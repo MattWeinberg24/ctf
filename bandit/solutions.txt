@@ -63,4 +63,5 @@
     git add -f key.txt
     git commit -m "anything"
     git push
-
+32. $0
+    cat /etc/bandit_pass/bandit33

@@ -1,0 +1,6 @@
+0. cat .backup/bookmarks.html | grep "leviathan"
+1. Run with gdb
+   Break at the location strcmp is called in main
+   check the contents of the stack and test each word (outside of gdb)
+   When a shell is spawned, cat the password
+
