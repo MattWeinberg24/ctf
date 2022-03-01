@@ -3,4 +3,12 @@
    Break at the location strcmp is called in main
    check the contents of the stack and test each word (outside of gdb)
    When a shell is spawned, cat the password
+2. ltrace ./printfile /etc/leviathan_pass/leviathan2
+   Notice it passes user input to a system call with /bin/cat
+   cat treats filenames with spaces as two different filenames
+   make a temporary directory
+   create a filename with a space in it: touch password\ fake
+   make a symbolic link between a file with the name corresponding to the first word in the previous command: ln -s /etc/leviathan_pass/leviathan3 password
+   supply the space-file to printfile and the password should appear
+   This is because it passes the access() check with the full space-filename, but only prints a file corresponding to the first word
 
