@@ -1,0 +1,3 @@
+download the image
+exiftool cat.jpg
+decode the license string from base64 using a web tool
