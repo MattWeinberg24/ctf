@@ -5,3 +5,9 @@ wave_a_flag: picoCTF{b1scu1ts_4nd_gr4vy_30e77291}
 information: picoCTF{the_m3tadata_1s_modified}
 nice_netcat: picoCTF{g00d_k1tty!_n1c3_k1tty!_9b3b7392}
 transformation: picoCTF{16_bits_inst34d_of_8_0ddcd97a}
+stonks: picoCTF{I_l05t_4ll_my_m0n3y_6148be54}
+get_ahead: picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f}
+static_aint_always_noise: picoCTF{d15a5m_t34s3r_f6c48608}
+tab_tab_attack: picoCTF{l3v3l_up!_t4k3_4_r35t!_76266e38}
+magikarp_ground_mission: picoCTF{xxsh_0ut_0f_\/\/4t3r_c1754242}
+keygenme_py: picoCTF{1n_7h3_|<3y_of_75fc1081}
