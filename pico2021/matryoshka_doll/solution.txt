@@ -1,0 +1,3 @@
+binwalk -e <image>
+move into the extracted folder and the base_images folder
+repeat until you get flag.txt

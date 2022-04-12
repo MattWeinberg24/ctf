@@ -1,6 +1,6 @@
-obedient cat: picoCTF{s4n1ty_v3r1f13d_2aa22101}
-mod 26: picoCTF{next_time_I'll_try_2_rounds_of_rot13_Aphnytiq}
-python wrangling: picoCTF{4p0110_1n_7h3_h0us3_67c6cc96}
+obedient_cat: picoCTF{s4n1ty_v3r1f13d_2aa22101}
+mod_26: picoCTF{next_time_I'll_try_2_rounds_of_rot13_Aphnytiq}
+python_wrangling: picoCTF{4p0110_1n_7h3_h0us3_67c6cc96}
 wave_a_flag: picoCTF{b1scu1ts_4nd_gr4vy_30e77291}
 information: picoCTF{the_m3tadata_1s_modified}
 nice_netcat: picoCTF{g00d_k1tty!_n1c3_k1tty!_9b3b7392}
@@ -11,3 +11,6 @@ static_aint_always_noise: picoCTF{d15a5m_t34s3r_f6c48608}
 tab_tab_attack: picoCTF{l3v3l_up!_t4k3_4_r35t!_76266e38}
 magikarp_ground_mission: picoCTF{xxsh_0ut_0f_\/\/4t3r_c1754242}
 keygenme_py: picoCTF{1n_7h3_|<3y_of_75fc1081}
+matryoshka_doll: picoCTF{ac0072c423ee13bfc0b166af72e25b61}
+crackme_py: picoCTF{1|\/|_4_p34|\|ut_8c551048}
+tunn3l_v1s10n: picoCTF{qu1t3_a_v13w_2020}
