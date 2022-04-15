@@ -1,0 +1,3 @@
+Decompile Covfefe.class using web tool
+Copy contents into Java project
+Convert each element of the computed array to ascii and print in order. Run main method.

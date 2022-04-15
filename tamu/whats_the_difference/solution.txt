@@ -1,0 +1,3 @@
+unzipping the file gives a git repo
+look at the git log and checkout the other commit
+the flag is at the bottom of the readme
