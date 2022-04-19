@@ -14,3 +14,7 @@ keygenme_py: picoCTF{1n_7h3_|<3y_of_75fc1081}
 matryoshka_doll: picoCTF{ac0072c423ee13bfc0b166af72e25b61}
 crackme_py: picoCTF{1|\/|_4_p34|\|ut_8c551048}
 tunn3l_v1s10n: picoCTF{qu1t3_a_v13w_2020}
+cookies: picoCTF{3v3ry1_l0v3s_c00k135_88acab36}
+wireshark_doo: picoCTF{p33kab00_1_s33_u_deadbeef}
+speeds_and_feeds: picoCTF{num3r1cal_c0ntr0l_84d2d117}
+scavenger_hunt: picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_a69684fd}

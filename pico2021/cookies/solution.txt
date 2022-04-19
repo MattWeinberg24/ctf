@@ -1,0 +1,1 @@
+edit the name property on the cookie to 18 and refresh the page

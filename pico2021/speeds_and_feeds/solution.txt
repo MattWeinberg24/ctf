@@ -1,0 +1,3 @@
+nc mercury.picoctf.net 28067
+copy output into https://nraynaud.github.io/webgcode/
+read the result

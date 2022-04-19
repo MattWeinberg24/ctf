@@ -1,0 +1,4 @@
+open in wireshark
+filter "tcp.stream eq 5"
+follow the tcp stream
+perform rot13

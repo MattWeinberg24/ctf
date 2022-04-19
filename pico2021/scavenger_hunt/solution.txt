@@ -1,0 +1,5 @@
+look at page source to get the first part
+look at stylesheets (css) to get the second part
+look at robots.txt for the third part
+look at .htaccess for the fourth part
+look at .DS_Store for the fifth part
