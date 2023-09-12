@@ -68,3 +68,26 @@ $ echo '/challenge/embryoio_level10 bojahpqwxu' > solve.sh
 $ bash solve.sh
 ```
 `pwn.college{wD8V_hTtkZvyqkHP-1lksjym7XG.QXwEDLyYjNyEzW}`
+
+## level11
+```
+$ echo '/challenge/embryoio_level11' > solve.sh
+$ env jinbxc=uuzezdplfx bash solve.sh
+```
+`pwn.college{EipZGkNQrSTsz3smyrcEhRCqm9t.QXxEDLyYjNyEzW}`
+
+## level12
+```
+$ echo '/challenge/embryoio_level12' > solve.sh
+$ echo "xnnmqwdy" > /tmp/kglepl
+$ bash solve.sh < /tmp/kglepl
+```
+`pwn.college{8NbyqFdivjodTkLVK0gAn6COIcz.QXyEDLyYjNyEzW}`
+
+## level13
+```
+$ echo '/challenge/embryoio_level13' > solve.sh
+$ bash solve.sh > /tmp/qvxufv
+$ cat /tmp/qvxufv
+```
+`pwn.college{0Wn4nFAl78B45x8V89cxWIdzq4n.QXzEDLyYjNyEzW}`
