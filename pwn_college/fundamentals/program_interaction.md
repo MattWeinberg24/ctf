@@ -112,4 +112,43 @@ Run `$ ipython` to enter `ipython` environment. Type the following line-by-line:
 ```py
 import subprocess
 subprocess.Popen("/challenge/embryoio_level16", shell=False, stdout=subprocess.PIPE).stdout.read()
+usaxszyn
 ```
+`pwn.college{ExBB2ZL5QUbCS9Ch6ztbslm1CJ4.QX2EDLyYjNyEzW}`
+
+## level17
+Run `$ ipython` to enter `ipython` environment. Type the following line-by-line:
+```py
+import subprocess
+subprocess.run(["/challenge/embryoio_level17","qmkhzrnnxd"]).stdout
+```
+`pwn.college{4iQ-ML165eAl2BmB8xEhD4SyD7_.QX3EDLyYjNyEzW}`
+
+## level18
+Run `$ ipython` to enter `ipython` environment. Type the following line-by-line:
+```py
+import subprocess
+subprocess.run(["/challenge/embryoio_level18"], env={'mufyxw':'ulflmtrplg'}).stdout
+```
+`pwn.college{I7nFHTHbUgJQqk2Icu_cx_gfHHT.QX4EDLyYjNyEzW}`
+
+## level19
+```
+$ echo "imsqsiru" > /tmp/xhekoe
+```
+Run `$ ipython` to enter `ipython` environment. Type the following line-by-line:
+```py
+import subprocess
+with open("/tmp/xhekoe","r") as f:
+    subprocess.run(["/challenge/embryoio_level19"], stdin=f).stdout
+```
+`pwn.college{8NdjJ9wG62VdsK-X2GRbuwURHn5.QX5EDLyYjNyEzW}`
+
+## level20
+Run `$ ipython` to enter `ipython` environment. Type the following line-by-line:
+```py
+import subprocess
+with open("/tmp/hyzlrr","w") as f:
+    subprocess.run(["/challenge/embryoio_level20"], stdout=f).stdout
+```
+`pwn.college{0-PA1l5BYhHwaeZA3Lx1kc7zN9g.QXwIDLyYjNyEzW}`
