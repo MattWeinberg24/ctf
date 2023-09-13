@@ -91,3 +91,25 @@ $ bash solve.sh > /tmp/qvxufv
 $ cat /tmp/qvxufv
 ```
 `pwn.college{0Wn4nFAl78B45x8V89cxWIdzq4n.QXzEDLyYjNyEzW}`
+
+## level14
+```
+$ echo 'env -i echo '/challenge/embryoio_level13' > solve.sh' > solve.sh
+$ bash solve.sh
+```
+`pwn.college{I1zJlqc_DjUWMQJB_BwRKhZmcil.QX0EDLyYjNyEzW}`
+
+## level15
+Run `$ ipython` to enter `ipython` environment. Type the following line-by-line:
+```py
+import subprocess
+subprocess.Popen("/challenge/embryoio_level15", shell=False, stdout=subprocess.PIPE).stdout.read()
+```
+`pwn.college{0wgIVyesbHlPPGWvIlaixxRDCl6.QX1EDLyYjNyEzW}`
+
+## level16
+Run `$ ipython` to enter `ipython` environment. Type the following line-by-line:
+```py
+import subprocess
+subprocess.Popen("/challenge/embryoio_level16", shell=False, stdout=subprocess.PIPE).stdout.read()
+```
