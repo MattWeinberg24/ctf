@@ -360,3 +360,142 @@ $ gcc solve.c
 $ ./a.out
 ```
 `pwn.college{QKImZmlI-v0Gftdp11RPoFgp9ZZ.QXyMDLyYjNyEzW}`
+
+## level33
+```
+$ echo "qskeuktz" > /tmp/hngcjr
+```
+Create a file `solve.c` with the following:
+```c
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+int pwncollege(){
+    char * argv[] = {"a.out",NULL};
+    char * envp[] = {NULL};
+    if (fork()==0) {
+        int fd = open("/tmp/hngcjr",O_RDONLY);
+        dup2(fd, STDIN_FILENO);
+        close(fd);
+        execve("/challenge/embryoio_level33",argv,envp);
+        perror("execve");
+    }
+    else {
+        wait(0);
+    }
+    return 0;
+}
+int main() {
+    return pwncollege();
+}
+```
+```
+$ gcc solve.c
+$ ./a.out
+```
+`pwn.college{I2HSGJawBlowBjDDhSpEuLsVBXK.QXzMDLyYjNyEzW}`
+
+## level34
+Create a file `solve.c` with the following:
+```c
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+int pwncollege(){
+    char * argv[] = {"a.out",NULL};
+    char * envp[] = {NULL};
+    if (fork()==0) {
+        int fd = open("/tmp/repyhr",O_CREAT | O_RDWR);
+        dup2(fd, STDOUT_FILENO);
+        close(fd);
+        execve("/challenge/embryoio_level34",argv,envp);
+        perror("execve");
+    }
+    else {
+        wait(0);
+    }
+    return 0;
+}
+int main() {
+    return pwncollege();
+}
+```
+```
+$ gcc solve.c
+$ ./a.out
+$ chmod +r /tmp/repyhr
+$ cat /tmp/repyhr
+```
+`pwn.college{4SZeI35_H9PyWVcOxmoWq77-C3K.QX0MDLyYjNyEzW}`
+
+## level35
+Create a file `solve.c` with the following:
+```c
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+int pwncollege(){
+    char * argv[] = {"a.out",NULL};
+    char * envp[] = {NULL};
+    if (fork()==0) {
+        execve("/challenge/embryoio_level35",argv,envp);
+        perror("execve");
+    }
+    else {
+        wait(0);
+    }
+    return 0;
+}
+int main() {
+    return pwncollege();
+}
+```
+```
+$ gcc solve.c
+$ ./a.out
+```
+`pwn.college{Iiu1whavIYPozdMdTil2NuukcLM.QX1MDLyYjNyEzW}`
+
+## level36
+```
+$ /challenge/embryoio_level36 | cat
+```
+Press enter and you should get output.
+`pwn.college{oyrzfPPbAn9C8eBorrKteuBe1I8.QX2MDLyYjNyEzW}`
+
+## level37
+```
+$ /challenge/embryoio_level37 | grep "pwn.college{.*}"
+```
+`pwn.college{4KrbxntclfbnIkrhjQI7Rwwjj3K.QX3MDLyYjNyEzW}`
+
+## level38
+```
+$ /challenge/embryoio_level38 | sed ''
+```
+`pwn.college{YJSyZzaVoRgf3qu45-Cyos30Mqg.QX4MDLyYjNyEzW}`
+
+## level39
+```
+$ /challenge/embryoio_level39 | rev | rev
+```
+`pwn.college{MOwTIDDEhr4xdcpmJ2jEVlZ0zhz.QX5MDLyYjNyEzW}`
+
+## level40
+```
+$ cat | /challenge/embryoio_level40
+iiiwtrlo
+```
+`pwn.college{oLC7xFoQolxoruOj5dWaLNR91nn.QXwQDLyYjNyEzW}`
